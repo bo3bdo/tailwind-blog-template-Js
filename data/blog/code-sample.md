@@ -4,6 +4,7 @@ date: '2016-03-08'
 tags: ['markdown', 'code', 'features']
 draft: false
 summary: Example of a markdown file with code blocks and syntax highlighting
+image: '/static/images/web18-codescreenshot-450x409.jpg'
 ---
 
 A sample post with markdown.
