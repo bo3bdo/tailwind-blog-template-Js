@@ -1,16 +1,12 @@
 ---
-name: Tails Azimuth
-avatar: /static/images/avatar.png
+name: Hamad
+avatar: /static/images/profile.png
 occupation: Professor of Atmospheric Science
 company: Stanford University
-email: address@yoursite.com
+email: bo3bdo@bo3bdo.com
 twitter: https://twitter.com/Twitter
 linkedin: https://www.linkedin.com
 github: https://github.com
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
-
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Hi, my name is bo3bdo. a full-stack web developer working at Web. In this publication, I share everything I know about Laravel And Web, packages, and tools. Browse the list of topics or check the latest posts from below.

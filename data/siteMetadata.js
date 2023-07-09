@@ -1,16 +1,16 @@
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  title: 'bo3bdo Blog',
+  author: 'Hamad',
+  headerTitle: 'bo3bdo Blog',
+  description: 'Welcome to my blog. Short posts with 🔥hot tips for a quick read.',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
-  siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
+  siteUrl: 'https://bo3bdo.com',
+  siteRepo: 'https://github.com/bo3bdo',
+  siteLogo: '/static/images/bo3bdo-low-resolution-logo-color-on-transparent-background.png',
+  image: '/static/images/profile.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'address@yoursite.com',
+  email: 'bo3bdo@bo3bdo.com',
   github: 'https://github.com',
   twitter: 'https://twitter.com/Twitter',
   facebook: 'https://facebook.com',
@@ -37,7 +37,7 @@ const siteMetadata = {
     // content security policy in the `next.config.js` file.
     // Select a provider and use the environment variables associated to it
     // https://vercel.com/docs/environment-variables
-    provider: 'giscus', // supported providers: giscus, utterances, disqus
+    provider: '', // supported providers: giscus, utterances, disqus
     giscusConfig: {
       // Visit the link below, and follow the steps in the 'configuration' section
       // https://giscus.app/
