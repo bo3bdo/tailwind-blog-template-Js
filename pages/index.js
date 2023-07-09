@@ -5,8 +5,8 @@ import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
 import Image from 'next/image'
-import NewsletterForm from '@/components/NewsletterForm'
 import SocialIcon from '@/components/social-icons'
+import 'animate.css'
 const MAX_DISPLAY = 5
 
 export async function getStaticProps() {
@@ -22,7 +22,10 @@ export default function Home({ posts }) {
       <div className="my-8 flex w-full content-between justify-center gap-4 p-5">
         <div className="w-full">
           <h1 className="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Hi, I'm Bo3bdo 👋
+            Hi, I'm Bo3bdo
+            <span className="animate__animated animate__shakeY animate__infinite infinite	ml-5">
+              👋
+            </span>
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             Hi, my name is bo3bdo. a full-stack web developer working at Web. In this publication, I

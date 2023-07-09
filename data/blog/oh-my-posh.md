@@ -4,7 +4,7 @@ date: '2023-07-09'
 tags: ['Windows']
 draft: false
 summary: While Oh My Posh works on the standard terminal, we advise using the Windows Terminal.
-image: '/static/images/lrdqox2wUTXdKx0CfX8s1FV4Xi7Vmqgt6vLsRhG5.png'
+image: '/static/images/OIP.jpeg'
 ---
 
 ## nstallation​
