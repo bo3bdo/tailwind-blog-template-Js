@@ -20,7 +20,7 @@ export default function Home({ posts }) {
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="my-8 flex w-full content-between justify-center gap-4 p-5">
-        <div className="w-1/2">
+        <div className="w-full">
           <h1 className="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Hi, I'm Bo3bdo 👋
           </h1>
@@ -30,14 +30,14 @@ export default function Home({ posts }) {
             topics or check the latest posts from below.
           </p>
         </div>
-        <div className="flex flex-col items-center">
+        <div className="flex w-1/2 flex-col items-center">
           <div>
             <Image
               src="/static/images/5271380.jpeg"
               alt="bo3bdo"
               width={200}
               height={200}
-              className="rounded-full"
+              className="rounded-full shadow-md"
             />
           </div>
           <div>
@@ -45,7 +45,7 @@ export default function Home({ posts }) {
           </div>
           <div>
             <div className="flex space-x-3 pt-6">
-              <SocialIcon kind="mail" href="mailto:bo3bdo@hotmail.com" />
+              <SocialIcon kind="mail" href="bo3bdo@hotmail.com" />
               <SocialIcon kind="github" href="https://github.com/bo3bdo" />
               <SocialIcon kind="twitter" href="https://twitter.com/Hamad3bdulla" />
             </div>
