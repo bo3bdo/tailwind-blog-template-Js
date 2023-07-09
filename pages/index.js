@@ -5,7 +5,6 @@ import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
 import Image from 'next/image'
-
 import NewsletterForm from '@/components/NewsletterForm'
 
 const MAX_DISPLAY = 5
@@ -41,11 +40,15 @@ export default function Home({ posts }) {
                       {/* if no image */}
 
                       {frontMatter.image && (
-                        <Image
-                          className="rounded-md"
-                          src={frontMatter.image}
-                          alt={frontMatter.title}
-                        />
+                        <Link href={`/blog/${slug}`}>
+                          <Image
+                            className="rounded-lg"
+                            src={frontMatter.image}
+                            alt={frontMatter.title}
+                            width={250}
+                            height={150}
+                          />
+                        </Link>
                       )}
 
                       {!frontMatter.image && 'No Image'}

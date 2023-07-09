@@ -53,6 +53,16 @@ const securityHeaders = [
 ]
 
 module.exports = withBundleAnalyzer({
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'bo3bdo.com',
+        port: '80',
+        pathname: '/**',
+      },
+    ],
+  },
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   eslint: {
