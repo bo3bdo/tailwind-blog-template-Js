@@ -1,3 +1,4 @@
+import 'animate.css'
 import Link from '@/components/Link'
 import { PageSEO } from '@/components/SEO'
 import Tag from '@/components/Tag'
@@ -6,7 +7,7 @@ import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
 import Image from 'next/image'
 import SocialIcon from '@/components/social-icons'
-import 'animate.css'
+
 const MAX_DISPLAY = 5
 
 export async function getStaticProps() {
@@ -21,12 +22,15 @@ export default function Home({ posts }) {
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="my-8 flex w-full content-between justify-center gap-4 p-5">
         <div className="w-full">
-          <h1 className="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Hi, I'm Bo3bdo
-            <span className="animate__animated animate__shakeY animate__infinite infinite	ml-5">
+          <div className="flex">
+            <h1 className="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+              Hi, I'm Bo3bdo
+            </h1>
+            <div className="animate__animated animate__tada animate__slower animate__infinite infinite ml-5	text-6xl">
               👋
-            </span>
-          </h1>
+            </div>
+          </div>
+
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             Hi, my name is bo3bdo. a full-stack web developer working at Web. In this publication, I
             share everything I know about Laravel And Web, packages, and tools. Browse the list of
