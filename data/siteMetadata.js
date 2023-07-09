@@ -9,13 +9,10 @@ const siteMetadata = {
   siteRepo: 'https://github.com/bo3bdo',
   siteLogo: '/static/images/bo3bdo-low-resolution-logo-color-on-transparent-background.png',
   image: '/static/images/profile.png',
-  socialBanner: '/static/images/twitter-card.png',
   email: 'bo3bdo@bo3bdo.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  github: 'https://github.com/bo3bdo',
+  twitter: 'https://twitter.com/Hamad3bdulla',
+
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
@@ -30,7 +27,7 @@ const siteMetadata = {
   newsletter: {
     // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus
     // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
+    provider: '',
   },
   comment: {
     // If you want to use a commenting system other than giscus you have to add it to the

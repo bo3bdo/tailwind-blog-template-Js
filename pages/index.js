@@ -6,7 +6,7 @@ import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
 import Image from 'next/image'
 import NewsletterForm from '@/components/NewsletterForm'
-
+import SocialIcon from '@/components/social-icons'
 const MAX_DISPLAY = 5
 
 export async function getStaticProps() {
@@ -19,10 +19,43 @@ export default function Home({ posts }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
+      <div className="my-8 flex w-full content-between justify-center gap-4 p-5">
+        <div className="w-1/2">
+          <h1 className="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            Hi, I'm Bo3bdo 👋
+          </h1>
+          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+            Hi, my name is bo3bdo. a full-stack web developer working at Web. In this publication, I
+            share everything I know about Laravel And Web, packages, and tools. Browse the list of
+            topics or check the latest posts from below.
+          </p>
+        </div>
+        <div className="flex flex-col items-center">
+          <div>
+            <Image
+              src="/static/images/5271380.jpeg"
+              alt="bo3bdo"
+              width={200}
+              height={200}
+              className="rounded-full"
+            />
+          </div>
+          <div>
+            <p className="text-gray-500 dark:text-gray-400">full-stack web developer</p>
+          </div>
+          <div>
+            <div className="flex space-x-3 pt-6">
+              <SocialIcon kind="mail" href="mailto:bo3bdo@hotmail.com" />
+              <SocialIcon kind="github" href="https://github.com/bo3bdo" />
+              <SocialIcon kind="twitter" href="https://twitter.com/Hamad3bdulla" />
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Latest
+            Latest Posts
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             {siteMetadata.description}
@@ -104,9 +137,7 @@ export default function Home({ posts }) {
         </div>
       )}
       {siteMetadata.newsletter.provider !== '' && (
-        <div className="flex items-center justify-center pt-4">
-          <NewsletterForm />
-        </div>
+        <div className="flex items-center justify-center pt-4"></div>
       )}
     </>
   )
