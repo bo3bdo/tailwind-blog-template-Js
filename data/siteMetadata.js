@@ -8,7 +8,7 @@ const siteMetadata = {
   siteUrl: 'https://bo3bdo.com',
   siteRepo: 'https://github.com/bo3bdo',
   siteLogo: '/static/images/bo3bdo-low-resolution-logo-color-on-transparent-background.png',
-  image: '/static/images/profile.png',
+  image: '/static/images/5271380.jpeg',
   socialBanner: '/static/images/twitter-card.png',
   email: '',
   github: '',
