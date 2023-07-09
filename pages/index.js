@@ -4,6 +4,7 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
+import Image from 'next/image'
 
 import NewsletterForm from '@/components/NewsletterForm'
 
@@ -40,7 +41,7 @@ export default function Home({ posts }) {
                       {/* if no image */}
 
                       {frontMatter.image && (
-                        <img
+                        <Image
                           className="rounded-md"
                           src={frontMatter.image}
                           alt={frontMatter.title}
