@@ -1,7 +1,7 @@
 const siteMetadata = {
-  title: 'bo3bdo Blog',
+  title: 'bo3bdo',
   author: 'Hamad',
-  headerTitle: 'bo3bdo Blog',
+  headerTitle: 'bo3bdo',
   description: 'Welcome to my blog. Short posts with 🔥hot tips for a quick read.',
   language: 'en-us',
   theme: 'system', // system, dark or light
